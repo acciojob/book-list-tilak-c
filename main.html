@@ -8,6 +8,7 @@
 
 <body>
 	<h1>MyBookList</h1>
+	<div class="form-group">
 	<label for="title">Title</label><br>
 	<input id="title" type="text"><br>
 	<label for="author">Author</label><br>
@@ -15,16 +16,17 @@
 	<label for="isbn">ISBN#</label><br>
 	<input id="isbn" type="text"><br>
 	<button type="submit" id="submit">Add Book</button>
-	<table id="book-list" border="1">
+	<table id="book-list" border="1" class="table-striped">
 		<thead>
 			<tr>
-				<th>Book</th>
-				<th>Author</th>
-				<th>ISBN#</th>
+				<td>Book</td>
+				<td>Author</td>
+				<td>ISBN#</td>
 			</tr>
 		</thead>
 		<tbody></tbody>
 	</table>
+		</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
