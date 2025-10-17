@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+input{
+	width:100%;
+	border:1px solid gray;
+	padding:8px;
+	border-radius:2px;
+	box-sizing:border-box;
+}
+button{
+	background-color:blue;
+	color:white;
+	padding:10px;
+	margin:10px;
+	width:90px;
+	border-outline:none;
+}
